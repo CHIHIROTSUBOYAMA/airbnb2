@@ -1,0 +1,264 @@
+@media screen and (max-width: 1440px) {
+  .main .event .event-contents img {
+    height: 333.33px; }
+  .main .workspace {
+    height: 500px; }
+  .main .accommodation {
+    height: 500px; }
+  .main .experience {
+    height: 500px; }
+  .main .opinion {
+    height: 500px; }
+    .main .opinion .opinion-article .opinion-main {
+      width: 61%;
+      font-size: 20px;
+      font-weight: 500; }
+  .main .introduction .introduction-contents .introduction-ttl {
+    font-size: 32px; } }
+@media screen and (max-width: 1127px) {
+  .tablet {
+    display: block; }
+
+  .header {
+    height: 636px; }
+    .header .header-nav .menu-btn {
+      content: "";
+      position: absolute;
+      border-bottom: solid 2px #fff;
+      border-right: solid 2px #fff;
+      margin: auto;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      width: 6px;
+      height: 6px;
+      top: 0;
+      bottom: 0;
+      left: 65px; }
+    .header .header-nav p {
+      display: none; }
+    .header .header-contents {
+      top: 170px;
+      left: 87px; }
+
+  .main .event .event-contents p {
+    font-size: 18px;
+    text-align: center;
+    margin: 16px 0 0; }
+  .main .workspace .workspace-contents .middle .workspace-ttl {
+    width: 83%;
+    font-size: 32px; }
+  .main .workspace .workspace-contents .middle .workspace-article {
+    width: 83%; }
+  .main .workspace .workspace-contents .middle a {
+    width: 83%; }
+  .main .experience .experiencet-contents .middle .experience-ttl {
+    width: 83%;
+    font-size: 32px; }
+  .main .experience .experiencet-contents .middle .experience-article {
+    width: 83%; }
+  .main .experience .experiencet-contents .middle a {
+    width: 83%; }
+  .main .accommodation .accommodation-contents .middle .accommodation-ttl {
+    width: 83%;
+    font-size: 32px; }
+  .main .accommodation .accommodation-contents .middle .accommodation-article {
+    width: 83%; }
+  .main .accommodation .accommodation-contents .middle a {
+    width: 83%; }
+  .main .details {
+      display: block;
+  }
+  .main .details .details-contents {
+    width: 58%;
+    margin: 0 auto;
+    max-width: 70%; }
+    .main .details .details-contents .flex-container {
+      display: block;
+      width: 100%;
+      max-width: 648px;
+      margin: 0 auto;
+      padding: 64px 0; }
+  .main .details .border-top {
+    width: 100%;
+    max-width: 648px;
+    border-bottom: 1px #fff solid;
+    margin-left: auto;
+    margin-right: auto; }
+  .main .opinion .opinion-article .opinion-main {
+    font-size: 18px;
+    line-height: 26px; }
+  .main .opinion .opinion-article .who {
+    width: 61%; }
+  .main .opinion .opinion-article .position {
+    width: 61%; } }
+@media screen and (max-width: 743px) {
+  .phone {
+    display: block; }
+
+  .header {
+    height: 540px; }
+    .header img {
+      object-fit: none;
+      object-position: right; }
+    .header video {
+      display: none; }
+    .header .header-contents {
+      width: 79%;
+      margin-left: 32px;
+      margin-right: 64px;
+      top: auto;
+      left: 0;
+      bottom: 30px; }
+      .header .header-contents .header-ttl h1 {
+        font-size: 32px; }
+      .header .header-contents .mail-ttl {
+        display: none; }
+      .header .header-contents .registration {
+        display: none; }
+      .header .header-contents .header-details {
+        display: none; }
+    .header .stop-btn {
+      display: none; }
+
+  .main {
+    text-align: center; }
+    .main .event {
+      width: 93%;
+      margin-top: 0;
+      margin-bottom: 0px; }
+      .main .event .event-ttl {
+        font-size: 24px; }
+      .main .event .flex {
+        display: block; }
+        .main .event .flex .event-contents {
+          width: 100%;
+          padding: 0; }
+          .main .event .flex .event-contents p {
+            margin-bottom: 32px; }
+    .main .workspace {
+      height: auto;
+      flex-direction: column-reverse; }
+      .main .workspace img {
+        width: 93%;
+        height: 380px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto; }
+      .main .workspace .workspace-contents {
+        width: 100%;
+        margin: 0; }
+        .main .workspace .workspace-contents .middle {
+          background-color: white; }
+          .main .workspace .workspace-contents .middle .workspace-ttl {
+            width: 73%;
+            font-size: 24px;
+            text-align: left; }
+          .main .workspace .workspace-contents .middle .workspace-article {
+            width: 73%;
+            text-align: left;
+            font-size: 14px; }
+          .main .workspace .workspace-contents .middle a {
+            width: 73%;
+            text-align: left; }
+    .main .experience {
+      margin-bottom: 0;
+      height: auto;
+      flex-direction: column-reverse; }
+      .main .experience img {
+        width: 93%;
+        height: 380px;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto; }
+      .main .experience .experience-contents {
+        width: 100%;
+        padding: 64px;
+        margin: 0; }
+        .main .experience .experience-contents .middle .experience-ttl {
+          width: 73%;
+          font-size: 24px;
+          text-align: left;
+          margin: 0; }
+        .main .experience .experience-contents .middle .experience-article {
+          width: 100%;
+          text-align: left;
+          font-size: 14px;
+          margin: 0; }
+        .main .experience .experience-contents .middle a {
+          width: 73%;
+          text-align: left;
+          margin: 16px 0 0 0; }
+    .main .accommodation {
+      height: auto;
+      flex-direction: column-reverse; }
+      .main .accommodation img {
+        width: 93%;
+        height: 380px;
+        margin-left: auto;
+        margin-right: auto; }
+      .main .accommodation .accommodation-contents {
+        width: 100%;
+        padding: 64px;
+        margin: 0;
+        background-color: white; }
+        .main .accommodation .accommodation-contents .middle .accommodation-ttl {
+          width: 100%;
+          font-size: 24px;
+          text-align: left;
+          margin: 0; }
+        .main .accommodation .accommodation-contents .middle .accommodation-article {
+          width: 100%;
+          text-align: left;
+          font-size: 14px;
+          margin: 0; }
+        .main .accommodation .accommodation-contents .middle a {
+          width: 73%;
+          text-align: left;
+          margin: 16px 0 0 0; }
+    .main .details {
+        display: block;
+      margin-bottom: 16px; }
+      .main .details .details-contents {
+        text-align: left;
+        width: 75%;
+        max-width: 75%; }
+        .main .details .details-contents .flex-container .details-ttl {
+          font-size: 24px; }
+        .main .details .details-contents .flex-container .details-article {
+          font-size: 14px; }
+    .main .opinion {
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 16px;
+      flex-direction: column; }
+      .main .opinion img {
+        width: 93%;
+        height: 380px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 16px; }
+      .main .opinion .opinion-article {
+        margin: 0;
+        width: 100%; }
+        .main .opinion .opinion-article .middle .opinion-main {
+          text-align: left;
+          font-size: 14px;
+          margin-top: 64px; }
+        .main .opinion .opinion-article .middle .who {
+          text-align: left; }
+        .main .opinion .opinion-article .middle .position {
+          margin-bottom: 64px;
+          text-align: left; }
+    .main .introduction .introduction-contents .introduction-ttl {
+      font-size: 24px; }
+    .main .introduction .introduction-contents .registration input {
+      width: 428.4px; }
+
+  .footer .phone-none {
+    display: none; }
+  .footer .container {
+    display: none; } }
+
+/*# sourceMappingURL=responsive.css.map */
